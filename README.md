@@ -126,3 +126,16 @@ __Цель данной работы__  — разработка структу�
 [slides]:      https://github.com/UNN-VMK-Software/mp2-lab1-set/tree/master/docs/slides
 [upstream]:    https://github.com/UNN-VMK-Software/mp2-lab1-set
 [gitter]:      https://gitter.im/UNN-VMK-Software/mp2-lab1-set
+
+
+
+
+
+Запуск тестов:
+
+.\build.ps1 
+
+
+Если PowerShell откажется запускать скрипт (ошибка про «выполнение сценариев отключено»), выполни один раз:
+
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
